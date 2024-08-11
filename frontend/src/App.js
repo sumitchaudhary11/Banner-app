@@ -15,7 +15,7 @@ function App() {
     // Fetch banner data from the server
     const fetchBanner = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/banner");
+        const response = await axios.get("https://banner-app-xng9.onrender.com/api/banner");
         setBanner(response.data);
       } catch (error) {
         console.error("Fetching error:", error);
