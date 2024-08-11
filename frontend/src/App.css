@@ -1,0 +1,12 @@
+.banner {
+  padding: 20px;
+  background-color: lightblue;
+  text-align: center;
+}
+
+.dashboard {
+  padding: 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+  margin-top: 20px;
+}
