@@ -31,7 +31,7 @@ function Dashboard({ banner, setBanner }) {
         }
     const updatedBanner = { description, timer, link, isVisible };
     try {
-      await axios.post("http://localhost:5000/api/banner", updatedBanner);
+      await axios.post("https://banner-app-xng9.onrender.com/api/banner", updatedBanner);
       setBanner(updatedBanner);
       setDescription("");
       setError("");
